@@ -1,101 +1,127 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Cachorrinhos",
+      "link": "https://www.youtube.com/watch?v=S-gWb3sV9mY",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Veja os vídeos dos seres humanos mais fofos",
+        "url": "https://www.youtube.com/watch?v=S-gWb3sV9mY"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Tudo o que você precisa ver pra trazer mais alegria aos seus dias de quarentena",
+          "url": "https://www.youtube.com/watch?v=S-gWb3sV9mY"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Eu sou realmente fofo?",
+          "url": "https://www.youtube.com/watch?v=aarIs3FlvcQ"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "CÃES FOFOS│Compilação de filhotes Husky engraçados e fofos",
+          "url": "https://www.youtube.com/watch?v=TKfBVeccuYc"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Baby Corgis",
+          "url": "https://www.youtube.com/watch?v=h06sBu4FGoA"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Destaques lendários de seis irmãos Welsh Corgi",
+          "url": "https://www.youtube.com/watch?v=n7wsTH1Jmwo"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-        },
-        {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+          "titulo": "Cachorros Engraçados 2016 ",
+          "url": "https://www.youtube.com/watch?v=2qjyX2JGtjA"
+        }       
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Gatinhos",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Veja os vídeos dos gatinhos mais lindinhos",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Os gatos mais adoráveis ​​do mundo",
+          "url": "https://www.youtube.com/watch?v=b8iTTiU7Ot0"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Animais engraçados e bebês",
+          "url": "https://www.youtube.com/watch?v=_1SSDlSs8eY"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "TENTE NÃO RIR OS VÍDEOS DE GATOS MAIS ENGRAÇADOS",
+          "url": "https://www.youtube.com/watch?v=eMEZTl-7Vvw"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Gatos engraçados",
+          "url": "https://www.youtube.com/watch?v=MD-fIj6pvGc"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Gatos engraçados",
+          "url": "https://www.youtube.com/watch?v=9kkIzivnC78"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Comidas",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Sim! Vc ouviu falar de comida!Veja receitinhas super fácies de fazer",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Carne de Panela | Sal de Flor",
+          "url": "https://www.youtube.com/watch?v=EEWc4apIdQg"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Bolo de Laranja Super Fofinho e Molhadinho | Sal de Flor",
+          "url": "https://www.youtube.com/watch?v=0eQBUzrVlSM"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Lanche de Frigideira | Sal de Flor",
+          "url": "https://www.youtube.com/watch?v=5r_KaNrUVvo"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Omelete de Forno | Sal de Flor",
+          "url": "https://www.youtube.com/watch?v=yVhVn3Vq2eg"
+        },
+        {
+          "titulo": "Sobremesa de Travessa (Morango, Chocolate e Creme de Leite Condensado) | Sal de Flor",
+          "url": "https://www.youtube.com/watch?v=KWrUGl_tMls"
+        }
+      ]
+    },
+    {
+      "titulo": "TED Talks",
+      "cor": "red",
+      "link_extra": {
+        "text": "Veja os melhores vídeos do TED Talks",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Menos emoção e mais razão | Gabriela Prioli | TEDxSaoPaulo",
+          "url": "https://www.youtube.com/watch?v=mZ72nuAjNNs"
+        },
+        {
+          "titulo": "Felicidade é aqui e agora | Clóvis de Barros Filho | TEDxSaoPaulo",
+          "url": "https://www.youtube.com/watch?v=HsQx02JdZ2Q"
+        },
+        {
+          "titulo": "A forma como você encara um momento pode mudar tudo | Paola Antonini | TEDxNovaLima",
+          "url": "https://www.youtube.com/watch?v=m0mI4bA7wYY"
+        },
+        {
+          "titulo": "O que é o amor ? | Ique Carvalho | TEDxJoaoPessoa",
+          "url": "https://www.youtube.com/watch?v=R0S4zTGdszk"
+        },
+        {
+          "titulo": "Todo mundo pode ensinar algo para alguém | Débora Aladim | TEDxSaoPaulo",
+          "url": "https://www.youtube.com/watch?v=RrPx5nNeYHM"
         }
       ]
     },
@@ -108,46 +134,20 @@
           "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Mulher-Maravilha",
+          "url": "https://www.youtube.com/watch?v=6iDMjqIjh5M"
         },
         {
           "titulo": "A Chegada",
           "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
-    },
-    {
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
-      "videos": [
-        {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Aves de Rapina | Trailer 2 Legendado",
+          "url": "https://www.youtube.com/watch?v=vzMLBmG2lnc"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-        },
-        {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "Star Wars - A Ascensão Skywalker",
+          "url": "https://www.youtube.com/watch?v=GeWaRUjndio"
         }
       ]
     },
