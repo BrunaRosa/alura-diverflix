@@ -13,9 +13,7 @@ function FormField({ label, type, name, value, onChange }) {
                 />
             </label>
         </div>
-        
     )
-    
 }
 
 export default FormField;
