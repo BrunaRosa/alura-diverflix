@@ -10,21 +10,19 @@ function CadastroCategoria() {
     cor: '',
   }
   const [categorias, setCategorias] = useState([]);
-
   const [values, setValues] = useState(valoresIniciais);
 
   function setValue(chave, valor) {
     setValues({
       ...values,
       [chave]: valor,
-    })
+    });
   }
 
-  function handleChange(infoDosEvento) {
-    const { getAttribute, value } = infoDosEvento.target;
+  function handleChange(infosDoEvento) {
     setValue(
-      getAttribute('name'),
-      value
+      infosDoEvento.target.getAttribute('name'),
+      infosDoEvento.target.value,
     );
   }
 
@@ -32,8 +30,8 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>Cadastro de Categoria: {values.nome}</h1>
 
-      <form onSubmit={function handleSubmit(infoDosEvento) {
-        infoDosEvento.preventDefault();
+      <form onSubmit={function handleSubmit(infosDoEvento) {
+        infosDoEvento.preventDefault();
         setCategorias([
           ...categorias,
           values
