@@ -2,23 +2,251 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Front End",
-      "descricao": "Uma categoria muito louca",
-      "cor": "#6BD1FF"
+      "titulo": "Cachorrinhos",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Veja os vídeos dos seres humanos mais fofos",
+        "url": ""
+      }
     },
     {
       "id": 2,
-      "nome": "Back End",
-      "descricao": "Uma categoria muito simples",
-      "cor": "#6BD1FF"
+      "titulo": "Gatinhos",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Veja os vídeos dos gatinhos mais lindinhos",
+        "url": ""
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Comidas",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Sim! Vc ouviu falar de comida!Veja receitinhas super fácies de fazer",
+        "url": ""
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "TEDTalks",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Veja os melhores vídeos do TED Talks",
+        "url": ""
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Filmes",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "red",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      }
     }
-   ],
+  ],
   "videos": [
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "Tudo o que você precisa ver pra trazer mais alegria aos seus dias de quarentena",
+      "url": "https://www.youtube.com/watch?v=S-gWb3sV9mY"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Eu sou realmente fofo?",
+      "url": "https://www.youtube.com/watch?v=aarIs3FlvcQ"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "CÃES FOFOS│Compilação de filhotes Husky engraçados e fofos",
+      "url": "https://www.youtube.com/watch?v=TKfBVeccuYc"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Cachorros Engraçados 2016 ",
+      "url": "https://www.youtube.com/watch?v=2qjyX2JGtjA"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Funniest & Cutest Labrador Puppies - Funny Puppy Videos 2020",
+      "url": "https://www.youtube.com/watch?v=HWYciml06xs"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Baby Corgis",
+      "url": "https://www.youtube.com/watch?v=h06sBu4FGoA"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Destaques lendários de seis irmãos Welsh Corgi",
+      "url": "https://www.youtube.com/watch?v=n7wsTH1Jmwo"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Os gatos mais adoráveis ​​do mundo",
+      "url": "https://www.youtube.com/watch?v=b8iTTiU7Ot0"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Animais engraçados e bebês",
+      "url": "https://www.youtube.com/watch?v=_1SSDlSs8eY"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "TENTE NÃO RIR OS VÍDEOS DE GATOS MAIS ENGRAÇADOS",
+      "url": "https://www.youtube.com/watch?v=eMEZTl-7Vvw"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Gatos engraçados",
+      "url": "https://www.youtube.com/watch?v=MD-fIj6pvGc"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Gatos engraçados",
+      "url": "https://www.youtube.com/watch?v=9kkIzivnC78"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Carne de Panela | Sal de Flor",
+      "url": "https://www.youtube.com/watch?v=EEWc4apIdQg"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Bolo de Laranja Super Fofinho e Molhadinho | Sal de Flor",
+      "url": "https://www.youtube.com/watch?v=0eQBUzrVlSM"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Lanche de Frigideira | Sal de Flor",
+      "url": "https://www.youtube.com/watch?v=5r_KaNrUVvo"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Omelete de Forno | Sal de Flor",
+      "url": "https://www.youtube.com/watch?v=yVhVn3Vq2eg"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Sobremesa de Travessa (Morango, Chocolate e Creme de Leite Condensado) | Sal de Flor",
+      "url": "https://www.youtube.com/watch?v=KWrUGl_tMls"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Menos emoção e mais razão | Gabriela Prioli | TEDxSaoPaulo",
+      "url": "https://www.youtube.com/watch?v=mZ72nuAjNNs"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Felicidade é aqui e agora | Clóvis de Barros Filho | TEDxSaoPaulo",
+      "url": "https://www.youtube.com/watch?v=HsQx02JdZ2Q"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "A forma como você encara um momento pode mudar tudo | Paola Antonini | TEDxNovaLima",
+      "url": "https://www.youtube.com/watch?v=m0mI4bA7wYY"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "O que é o amor ? | Ique Carvalho | TEDxJoaoPessoa",
+      "url": "https://www.youtube.com/watch?v=R0S4zTGdszk"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Todo mundo pode ensinar algo para alguém | Débora Aladim | TEDxSaoPaulo",
+      "url": "https://www.youtube.com/watch?v=RrPx5nNeYHM"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Interestellar",
+      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Mulher-Maravilha",
+      "url": "https://www.youtube.com/watch?v=6iDMjqIjh5M"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "A Chegada",
+      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Aves de Rapina | Trailer 2 Legendado",
+      "url": "https://www.youtube.com/watch?v=vzMLBmG2lnc"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "Star Wars - A Ascensão Skywalker",
+      "url": "https://www.youtube.com/watch?v=GeWaRUjndio"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "Como estudar melhor?",
+      "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "Faculdade",
+      "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "Frameworks",
+      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "A mágica do Aprendizado",
+      "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+    },
+    {
+      "id": 32,
+      "categoriaId": 6,
+      "titulo": "Como aprender a programar?",
+      "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
     }
   ]
 }

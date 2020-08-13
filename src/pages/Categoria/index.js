@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../components/PageDefault';
 import FormField from '../../components/FormField';
 import Button from '../../components/Button';
+import useForm from '../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -11,56 +12,55 @@ function CadastroCategoria() {
     cor: '',
   };
 
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-  }
 
   useEffect(() => {
-    const URL = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080/categorias'
-      : 'https://diverflix.herokuapp.com/categorias';  
+    if (window.location.href.includes('localhost')) {
+      const URL = 'http://localhost:8080/categorias';
       fetch(URL)
-       .then(async (respostaDoServer) => {
-          const resposta = await respostaDoServer.json();
-          setCategorias([
-          ...resposta,
-        ])
-      }
-    )})
+        .then(async (respostaDoServer) => {
+          if (respostaDoServer.ok) {
+            const resposta = await respostaDoServer.json();
+            setCategorias(resposta);
+            return;
+          }
+          throw new Error('Não foi possível pegar os dados');
+        });
+    }
+  }, []);
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setCategorias([...categorias, values]);
+
+    const config = {
+      method: 'POST',
+      body: JSON.stringify(values),
+      headers: { 'Content-type': 'application/json; charset=UTF-8' },
+    };
+
+    fetch(URL, config)
+      .then(async (respostaDoServidor) => {
+        if (respostaDoServidor.status) {
+          alert('Categoria criada com sucesso!');
+        }
+      });
+
+    clearForm();
+  }
 
   return (
     <PageDefault>
-      <h1>Cadastro de Categoria: {values.nome}</h1>
-
-      <form onSubmit={function handleSubmit(infosDoEvento) {
-        infosDoEvento.preventDefault();
-        
-        setCategorias([
-          ...categorias,
-          values
-        ]);
-
-        setValues(valoresIniciais)
-    }}>
+      <h1>Cadastro de Categoria: {values.titulo}</h1>
+      <form onSubmit={handleSubmit}>
 
         <FormField 
-          label="Nome da Categoria"
+          label="Título da Categoria"
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
@@ -92,15 +92,14 @@ function CadastroCategoria() {
       )}
 
       <ul>
-        {categorias.map((categoria) => {
+        {categorias.map((categoria, index) => {
           return (
-            <li key={`${categoria.nome}`}>
-              {categoria.nome}
+            <li key={`${categoria.titulo}`}>
+              {categoria.titulo}
             </li>
           )
         })}
       </ul>
-
 
       <Link to="/">
         Ir para home
@@ -108,6 +107,5 @@ function CadastroCategoria() {
     </PageDefault>
   )
 }
-
 
 export default CadastroCategoria;
